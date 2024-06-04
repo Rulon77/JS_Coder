@@ -80,7 +80,7 @@ function comprarProducto() {
             comprarProducto();
         } else {
             const total = calcularTotal(compras);
-            alert("Su compra: \n" + mostrarProductos(compras) + `\nTotal a pagar: ${total}`);
+            alert("Su compra: \n" + mostrarProductos(compras) + `\n Total a pagar: $ ${total}`);
         }
     } else {
         alert("Producto no encontrado.");
